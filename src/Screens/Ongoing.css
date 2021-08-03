@@ -1,0 +1,58 @@
+card: {
+  boxShadow: "0 2px 4px 0 rgba(0,0,0,02)",
+  transition: "03s",
+  width: "80%",
+  margin: "auto",
+  flexDirection: "column",
+  justifyContent: "spacebetween",
+  /* border: 3px solid green,
+  padding: 10px, */
+},
+/* 
+card:hover {
+  boxshadow: 0 4px 8px 0 rgba(0,0,0,02),
+} */
+
+container: {
+  padding: "2px 16px",
+},
+
+servicename:{
+ flexDirection: "row",
+  justifyContent: "spacebetween",
+},
+
+textcolor:{
+  color:"red"
+},
+
+viewspacing:{
+  padding:"10px 0px"
+},
+
+textbold:{
+  fontWeight: "bold",
+},
+textsize:{
+  fontSize: "20px",
+},
+  textcenter:{
+    flexDirection:"column",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+   buttoncenter:{
+    flexDirection:"row",
+    justifyContent:"center",
+   },
+  button: {
+    marginBottom: "30px",
+    width: "150px",
+    alignItems: "center",
+    backgroundColor:"#FFA500",
+  },
+ buttontext: {
+    textAlign: "center",
+    padding: "10px",
+    color: "white",
+  }
